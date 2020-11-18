@@ -1,11 +1,22 @@
 IMG {
     width: 100%;
+    height: 100%;
     display: block;
 }
-
-.item IMG {
-    visibility: hidden;
+.tech{
+    color: black;
+    margin-top: 60px;
+    font-size: larger;
+    font-weight: bold;
 }
+.tech:hover{
+    color: black;
+    margin-top: 60px;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 
 .container {
     margin: 3rem auto;
@@ -70,6 +81,12 @@ IMG {
         }
         .item:nth-child(even) {
             grid-column: 2
+        }
+        .line{
+            margin-right: 41%;
+            background: #f7e05c;
+            width: 80px; 
+            height: 7px; 
         }
     }
     @media (min-width: 22rem) {
@@ -136,6 +153,12 @@ IMG {
         }
     }
     @media (min-width: 54rem) {
+        .line{
+            margin-right: 47.5%;
+            background: #f7e05c; 
+            width: 80px; 
+            height: 7px; 
+        }
         .container {
             max-width: 50rem;
             grid-template-columns: repeat(10, 5rem);
