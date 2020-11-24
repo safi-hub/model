@@ -5,14 +5,17 @@ IMG {
 }
 
 .tech {
-    color: black;
+    background: #222222;
+    opacity: 0.56;
+    color: white;
     margin-top: 60px;
     font-size: larger;
     font-weight: bold;
+    height: 40px;
 }
 
 .tech:hover {
-    color: black;
+    color: #f5d004;
     margin-top: 60px;
     font-size: larger;
     font-weight: bold;
@@ -89,6 +92,12 @@ IMG {
             width: 80px;
             height: 7px;
         }
+        .contact100-form-title {
+            margin-right: 30%;
+        }
+        .aaa {
+            margin-right: 21%;
+        }
     }
     @media (min-width: 22rem) {
         .container {
@@ -159,6 +168,12 @@ IMG {
             background: #f7e05c;
             width: 80px;
             height: 7px;
+        }
+        .contact100-form-title {
+            margin-right: 38%;
+        }
+        .aaa {
+            margin-right: 41%;
         }
         .container {
             max-width: 50rem;
@@ -317,13 +332,20 @@ iframe {
 
 .contact100-form-title {
     display: block;
+    background: #222222;
+    opacity: 0.56;
+    color: white;
     font-family: Ubuntu-Bold;
     font-size: 30px;
-    color: black;
+    height: 50px;
+    margin-bottom: 50px;
+    width: 130px;
+    padding-top: 13px;
+    /* color: black; */
     line-height: 1.2;
     text-transform: uppercase;
     text-align: center;
-    padding-bottom: 49px
+    padding-bottom: 49px;
 }
 
 .wrap-input100 {
@@ -515,3 +537,14 @@ textarea.input100 {
 
 
 /**/
+
+.aaa {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #f5d004;
+    clip-path: polygon(50% 0, 93.3% 25%, 93.3% 75%, 50% 100%, 6.7% 75%, 6.7% 25%);
+    transform: scale(1.077);
+    transition: transform 0.3s;
+}
